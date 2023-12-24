@@ -38,7 +38,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             <!DOCTYPE html>
             <html>
             <body>
-             <form action="http://localhost:8080" method="POST">
+             <form action="http://193.164.149.123:8080" method="POST">
                 <input type="text" name="text">
                 <input type="submit" value="Send">
              </form>
